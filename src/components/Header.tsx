@@ -48,7 +48,7 @@ const Header = () => {
         <nav className="h-full flex justify-between container items-center">
           <div>
             <Link to="/" className="text-ct-dark-600 text-2xl font-semibold">
-                img src={logo} alt="Rama Judicial de Colombia" className="header-logo" />
+                <img src={logo} alt="Rama Judicial de Colombia" className="header-logo" />
             </Link>
           </div>
           <ul className="flex items-center gap-4">
