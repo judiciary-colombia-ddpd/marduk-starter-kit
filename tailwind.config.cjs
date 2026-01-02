@@ -10,7 +10,7 @@ module.exports = {
         'ct-dark-600': '#222',
         'ct-dark-200': '#e5e7eb',
         'ct-dark-100': '#f5f6f7',
-        'ct-blue-600': '#2363eb',
+        'ct-blue-600': '#879CD6',
         'ct-yellow-600': '#f9d13e',
       },
       fontFamily: {
