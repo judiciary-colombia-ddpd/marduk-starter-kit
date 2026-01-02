@@ -2,6 +2,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import useStore from "../store";
 import Spinner from "./Spinner";
+import logo from '../assets/csj-001.png';
 
 const Header = () => {
   const store = useStore();
@@ -47,7 +48,7 @@ const Header = () => {
         <nav className="h-full flex justify-between container items-center">
           <div>
             <Link to="/" className="text-ct-dark-600 text-2xl font-semibold">
-              SIRNA - TEST
+                img src={logo} alt="Rama Judicial de Colombia" className="header-logo" />
             </Link>
           </div>
           <ul className="flex items-center gap-4">
